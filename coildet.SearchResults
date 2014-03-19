@@ -1,0 +1,10 @@
+---- det_result 匹配 (15 在 1 文件 ) ----
+CoilDet-V0.0.C:unsigned char det_result[3] = {0x00,0x00,0x00};//每个通道的检测结果，0为无车 1为有车,分为三组 三组每个通道的值一致才算真正有车
+CoilDet-V0.0.C:												if(det_output_enable) det_result[0] |= 0x01 <<i; //写入有车状态.									
+CoilDet-V0.0.C:														if(det_output_enable) det_result[0] |= 0x01 <<i; //写入有车状态.
+CoilDet-V0.0.C:										det_result[0] &= (~(0x01 <<i)); //写入无车状态
+CoilDet-V0.0.C:									det_result[0] &= (~(0x01 <<i)); //写入无车状态
+CoilDet-V0.0.C:					if((det_result[0] & (0x01<<i)) && (det_result[1] & (0x01<<i)) &&(det_result[2] & (0x01<<i)))
+CoilDet-V0.0.C:					else if((!(det_result[0] & (0x01<<i))) && (!(det_result[1] & (0x01<<i))) &&(!(det_result[2] & (0x01<<i))))
+CoilDet-V0.0.C:							det_result[2] = det_result[1];
+CoilDet-V0.0.C:							det_result[1] = det_result[0];

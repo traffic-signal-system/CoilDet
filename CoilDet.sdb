@@ -1,0 +1,950 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC LFSROK SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K80 ]
+"17957 d:\HI-TECH Software\PICC-18\9.80\include\PIC18F45K80.h
+[e E18423 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"146 E:\working\coil\coil-v0.0-14\CoilDet\CoilDet-V0.0.C
+[v F19189 `[10]ui  10a t 20 ]
+"365
+[v F19236 `(v  1 t 0 ]
+"5 ../../common/abdiv.c
+[v ___abdiv `(c  1 e 1 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\abmod.c
+[v ___abmod `(c  1 e 1 0 ]
+"32 d:\HI-TECH Software\PICC-18\9.80\sources\abtofl.c
+[v ___abtofl `(d  1 e 3 0 ]
+"34 d:\HI-TECH Software\PICC-18\9.80\sources\abtoft.c
+[v ___abtoft `(f  1 e 3 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"37 d:\HI-TECH Software\PICC-18\9.80\sources\altofl.c
+[v ___altofl `(d  1 e 3 0 ]
+"43 d:\HI-TECH Software\PICC-18\9.80\sources\altoft.c
+[v ___altoft `(f  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\asfladd.c
+[v ___asfladd `(d  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\asfldiv.c
+[v ___asfldiv `(d  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\asflmul.c
+[v ___asflmul `(d  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\asflsub.c
+[v ___asflsub `(d  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\asftadd.c
+[v ___asftadd `(f  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\asftdiv.c
+[v ___asftdiv `(f  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\asftmul.c
+[v ___asftmul `(f  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\asftsub.c
+[v ___asftsub `(f  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\aslmul.c
+[v ___aslmul `(ul  1 e 4 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\atdiv.c
+[v ___atdiv `(m  1 e 3 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\atmod.c
+[v ___atmod `(m  1 e 3 0 ]
+"38 d:\HI-TECH Software\PICC-18\9.80\sources\attofl.c
+[v ___attofl `(d  1 e 3 0 ]
+"38 d:\HI-TECH Software\PICC-18\9.80\sources\attoft.c
+[v ___attoft `(f  1 e 3 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"32 d:\HI-TECH Software\PICC-18\9.80\sources\awtofl.c
+[v ___awtofl `(d  1 e 3 0 ]
+"33 d:\HI-TECH Software\PICC-18\9.80\sources\awtoft.c
+[v ___awtoft `(f  1 e 3 0 ]
+"3 d:\HI-TECH Software\PICC-18\9.80\sources\bmul.c
+[v ___bmul `(uc  1 e 1 0 ]
+"64 d:\HI-TECH Software\PICC-18\9.80\sources\double.c
+[v ___flpack `(d  1 e 3 0 ]
+"89 d:\HI-TECH Software\PICC-18\9.80\sources\fladd.c
+[v ___fladd `(d  1 e 3 0 ]
+"50 d:\HI-TECH Software\PICC-18\9.80\sources\fldiv.c
+[v ___fldiv `(d  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\flge.c
+[v ___flge `(b  1 e 0 0 ]
+"51 d:\HI-TECH Software\PICC-18\9.80\sources\flmul.c
+[v ___flmul `(d  1 e 3 0 ]
+"16 d:\HI-TECH Software\PICC-18\9.80\sources\flneg.c
+[v ___flneg `(d  1 e 3 0 ]
+"63 d:\HI-TECH Software\PICC-18\9.80\sources\float.c
+[v ___ftpack `(f  1 e 3 0 ]
+"22 d:\HI-TECH Software\PICC-18\9.80\sources\flsub.c
+[v ___flsub `(d  1 e 3 0 ]
+"44 d:\HI-TECH Software\PICC-18\9.80\sources\fltol.c
+[v ___fltol `(l  1 e 4 0 ]
+"87 d:\HI-TECH Software\PICC-18\9.80\sources\ftadd.c
+[v ___ftadd `(f  1 e 3 0 ]
+"50 d:\HI-TECH Software\PICC-18\9.80\sources\ftdiv.c
+[v ___ftdiv `(f  1 e 3 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\ftge.c
+[v ___ftge `(b  1 e 0 0 ]
+"52 d:\HI-TECH Software\PICC-18\9.80\sources\ftmul.c
+[v ___ftmul `(f  1 e 3 0 ]
+"16 d:\HI-TECH Software\PICC-18\9.80\sources\ftneg.c
+[v ___ftneg `(f  1 e 3 0 ]
+"22 d:\HI-TECH Software\PICC-18\9.80\sources\ftsub.c
+[v ___ftsub `(f  1 e 3 0 ]
+"45 d:\HI-TECH Software\PICC-18\9.80\sources\fttol.c
+[v ___fttol `(l  1 e 4 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\lbdiv.c
+[v ___lbdiv `(uc  1 e 1 0 ]
+"5 d:\HI-TECH Software\PICC-18\9.80\sources\lbmod.c
+[v ___lbmod `(uc  1 e 1 0 ]
+"28 d:\HI-TECH Software\PICC-18\9.80\sources\lbtofl.c
+[v ___lbtofl `(d  1 e 3 0 ]
+"28 d:\HI-TECH Software\PICC-18\9.80\sources\lbtoft.c
+[v ___lbtoft `(f  1 e 3 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\llmod.c
+[v ___llmod `(ul  1 e 4 0 ]
+"31 d:\HI-TECH Software\PICC-18\9.80\sources\lltofl.c
+[v ___lltofl `(d  1 e 3 0 ]
+"36 d:\HI-TECH Software\PICC-18\9.80\sources\lltoft.c
+[v ___lltoft `(f  1 e 3 0 ]
+"3 d:\HI-TECH Software\PICC-18\9.80\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\ltdiv.c
+[v ___ltdiv `(um  1 e 3 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\ltmod.c
+[v ___ltmod `(um  1 e 3 0 ]
+"31 d:\HI-TECH Software\PICC-18\9.80\sources\lttofl.c
+[v ___lttofl `(d  1 e 3 0 ]
+"31 d:\HI-TECH Software\PICC-18\9.80\sources\lttoft.c
+[v ___lttoft `(f  1 e 3 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+"10 d:\HI-TECH Software\PICC-18\9.80\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+"29 d:\HI-TECH Software\PICC-18\9.80\sources\lwtofl.c
+[v ___lwtofl `(d  1 e 3 0 ]
+"29 d:\HI-TECH Software\PICC-18\9.80\sources\lwtoft.c
+[v ___lwtoft `(f  1 e 3 0 ]
+"3 d:\HI-TECH Software\PICC-18\9.80\sources\tmul.c
+[v ___tmul `(um  1 e 3 0 ]
+"3 d:\HI-TECH Software\PICC-18\9.80\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"16 E:\working\coil\coil-v0.0-14\CoilDet\CAN.H
+[v _CANFilterSet `(v  1 e 0 0 ]
+"86
+[v _CANErrClr `(v  1 e 0 0 ]
+"95
+[v _CANSetID `(v  1 e 0 0 ]
+"123
+[v _CANInit `(v  1 e 0 0 ]
+"169
+[v _CANSend `(uc  1 e 1 0 ]
+"287
+[v _CANRecv `(b  1 e 0 0 ]
+"173 E:\working\coil\coil-v0.0-14\CoilDet\CoilDet-V0.0.C
+[v _Ch_Timeout_Processing `(v  1 e 0 0 ]
+"202
+[v _TMR0IntServer `(v  1 e 0 0 ]
+"216
+[v _TMR1IntServer `(v  1 e 0 0 ]
+"227
+[v _TMR3IntServer `(v  1 e 0 0 ]
+"235
+[v _ADIntServer `(v  1 e 0 0 ]
+"243
+[v _DataTransferIntServer `(v  1 e 0 0 ]
+"365
+[v _IntServer `I(v  1 e 0 0 ]
+"403
+[v _PORTInit `(v  1 e 0 0 ]
+"445
+[v _IntManager `(v  1 e 0 0 ]
+"482
+[v _DoTimeout `(v  1 e 0 0 ]
+"507
+[v _Set595Output `(v  1 e 0 0 ]
+"563
+[v _SetFreq `(v  1 e 0 0 ]
+"575
+[v _SetSens `(v  1 e 0 0 ]
+"592
+[v _SetConfig `(v  1 e 0 0 ]
+"629
+[v _PulseErrSet `(v  1 e 0 0 ]
+"678
+[v _GetChSampPluse `(v  1 e 0 0 ]
+"739
+[v _GetSampPluse `(v  1 e 0 0 ]
+"782
+[v _GetTimeAverage `(ui  1 e 2 0 ]
+"826
+[v _GetTimerCounter `(ui  1 e 2 0 ]
+"909
+[v _DetInit `(v  1 e 0 0 ]
+"935
+[v _DetBufWrite `(v  1 e 0 0 ]
+"946
+[v _abs `(ui  1 e 2 0 ]
+"955
+[v _StartDet `(v  1 e 0 0 ]
+"1035
+[v _DTSend `(v  1 e 0 0 ]
+"1081
+[v _DTRecv `(v  1 e 0 0 ]
+"1126
+[v _StartCalc `(v  1 e 0 0 ]
+"1166
+[v _ReadFrequency `(v  1 e 0 0 ]
+"1176
+[v _ReadSensLv `(v  1 e 0 0 ]
+"1186
+[v _ReadSensTable `(v  1 e 0 0 ]
+"1195
+[v _DTWriteSensLv `(v  1 e 0 0 ]
+"1212
+[v _DTWriteSens `(v  1 e 0 0 ]
+"1224
+[v _DTWriteOSCSet `(v  1 e 0 0 ]
+"1242
+[v _GetCoilState `(v  1 e 0 0 ]
+"1336
+[v _LEDOutputTest `(v  1 e 0 0 ]
+"1361
+[v _DTRest `(v  1 e 0 0 ]
+"1367
+[v _TransportDataProcess `(v  1 e 0 0 ]
+"1427
+[v _DTOperation `(v  1 e 0 0 ]
+"1599
+[v _main `(v  1 e 0 0 ]
+"45 E:\working\coil\coil-v0.0-14\CoilDet\mcu.h
+[v _EEPROMRead `(v  1 e 0 0 ]
+"70
+[v _EEPROMWrite `(v  1 e 0 0 ]
+"104
+[v _delayus `(v  1 e 0 0 ]
+"120
+[v _delayms `(v  1 e 0 0 ]
+"85 E:\working\coil\coil-v0.0-14\CoilDet\TSC.H
+[v _GetLampBoardAddr `(uc  1 e 1 0 ]
+"146
+[v _GetAddr `(uc  1 e 1 0 ]
+"61 d:\HI-TECH Software\PICC-18\9.80\include\PIC18F45K80.h
+[v _BRGCON1 `Vuc  1 e 1 @3651 ]
+"84
+[v _BRGCON2 `Vuc  1 e 1 @3652 ]
+"111
+[v _BRGCON3 `Vuc  1 e 1 @3653 ]
+"6417
+[v _RXF0SIDH `Vuc  1 e 1 @3808 ]
+"6470
+[v _RXF0SIDL `Vuc  1 e 1 @3809 ]
+"6517
+[v _RXF0EIDH `Vuc  1 e 1 @3810 ]
+"6570
+[v _RXF0EIDL `Vuc  1 e 1 @3811 ]
+"6623
+[v _RXF1SIDH `Vuc  1 e 1 @3812 ]
+"6676
+[v _RXF1SIDL `Vuc  1 e 1 @3813 ]
+"6723
+[v _RXF1EIDH `Vuc  1 e 1 @3814 ]
+"6776
+[v _RXF1EIDL `Vuc  1 e 1 @3815 ]
+"6829
+[v _RXF2SIDH `Vuc  1 e 1 @3816 ]
+"6882
+[v _RXF2SIDL `Vuc  1 e 1 @3817 ]
+"6929
+[v _RXF2EIDH `Vuc  1 e 1 @3818 ]
+"6982
+[v _RXF2EIDL `Vuc  1 e 1 @3819 ]
+"7035
+[v _RXF3SIDH `Vuc  1 e 1 @3820 ]
+"7088
+[v _RXF3SIDL `Vuc  1 e 1 @3821 ]
+"7135
+[v _RXF3EIDH `Vuc  1 e 1 @3822 ]
+"7188
+[v _RXF3EIDL `Vuc  1 e 1 @3823 ]
+"7241
+[v _RXF4SIDH `Vuc  1 e 1 @3824 ]
+"7294
+[v _RXF4SIDL `Vuc  1 e 1 @3825 ]
+"7341
+[v _RXF4EIDH `Vuc  1 e 1 @3826 ]
+"7394
+[v _RXF4EIDL `Vuc  1 e 1 @3827 ]
+"7447
+[v _RXF5SIDH `Vuc  1 e 1 @3828 ]
+"7500
+[v _RXF5SIDL `Vuc  1 e 1 @3829 ]
+"7547
+[v _RXF5EIDH `Vuc  1 e 1 @3830 ]
+"7600
+[v _RXF5EIDL `Vuc  1 e 1 @3831 ]
+"7653
+[v _RXM0SIDH `Vuc  1 e 1 @3832 ]
+"7706
+[v _RXM0SIDL `Vuc  1 e 1 @3833 ]
+"7753
+[v _RXM0EIDH `Vuc  1 e 1 @3834 ]
+"7806
+[v _RXM0EIDL `Vuc  1 e 1 @3835 ]
+"7859
+[v _RXM1SIDH `Vuc  1 e 1 @3836 ]
+"7912
+[v _RXM1SIDL `Vuc  1 e 1 @3837 ]
+"7959
+[v _RXM1EIDH `Vuc  1 e 1 @3838 ]
+"8012
+[v _RXM1EIDL `Vuc  1 e 1 @3839 ]
+"8065
+[v _TXB2CON `Vuc  1 e 1 @3840 ]
+"8114
+[v _TXB2SIDH `Vuc  1 e 1 @3841 ]
+"8167
+[v _TXB2SIDL `Vuc  1 e 1 @3842 ]
+"8214
+[v _TXB2EIDH `Vuc  1 e 1 @3843 ]
+"8267
+[v _TXB2EIDL `Vuc  1 e 1 @3844 ]
+"8320
+[v _TXB2DLC `Vuc  1 e 1 @3845 ]
+"8359
+[v _TXB2D0 `Vuc  1 e 1 @3846 ]
+"8381
+[v _TXB2D1 `Vuc  1 e 1 @3847 ]
+"8403
+[v _TXB2D2 `Vuc  1 e 1 @3848 ]
+"8425
+[v _TXB2D3 `Vuc  1 e 1 @3849 ]
+"8447
+[v _TXB2D4 `Vuc  1 e 1 @3850 ]
+"8469
+[v _TXB2D5 `Vuc  1 e 1 @3851 ]
+"8491
+[v _TXB2D6 `Vuc  1 e 1 @3852 ]
+"8513
+[v _TXB2D7 `Vuc  1 e 1 @3853 ]
+"8613
+[v _TXB1CON `Vuc  1 e 1 @3856 ]
+"8662
+[v _TXB1SIDH `Vuc  1 e 1 @3857 ]
+"8715
+[v _TXB1SIDL `Vuc  1 e 1 @3858 ]
+"8762
+[v _TXB1EIDH `Vuc  1 e 1 @3859 ]
+"8815
+[v _TXB1EIDL `Vuc  1 e 1 @3860 ]
+"8868
+[v _TXB1DLC `Vuc  1 e 1 @3861 ]
+"8907
+[v _TXB1D0 `Vuc  1 e 1 @3862 ]
+"8929
+[v _TXB1D1 `Vuc  1 e 1 @3863 ]
+"8951
+[v _TXB1D2 `Vuc  1 e 1 @3864 ]
+"8973
+[v _TXB1D3 `Vuc  1 e 1 @3865 ]
+"8995
+[v _TXB1D4 `Vuc  1 e 1 @3866 ]
+"9017
+[v _TXB1D5 `Vuc  1 e 1 @3867 ]
+"9039
+[v _TXB1D6 `Vuc  1 e 1 @3868 ]
+"9061
+[v _TXB1D7 `Vuc  1 e 1 @3869 ]
+"9161
+[v _TXB0CON `Vuc  1 e 1 @3872 ]
+"9210
+[v _TXB0SIDH `Vuc  1 e 1 @3873 ]
+"9263
+[v _TXB0SIDL `Vuc  1 e 1 @3874 ]
+"9310
+[v _TXB0EIDH `Vuc  1 e 1 @3875 ]
+"9363
+[v _TXB0EIDL `Vuc  1 e 1 @3876 ]
+"9416
+[v _TXB0DLC `Vuc  1 e 1 @3877 ]
+"9455
+[v _TXB0D0 `Vuc  1 e 1 @3878 ]
+"9477
+[v _TXB0D1 `Vuc  1 e 1 @3879 ]
+"9499
+[v _TXB0D2 `Vuc  1 e 1 @3880 ]
+"9521
+[v _TXB0D3 `Vuc  1 e 1 @3881 ]
+"9543
+[v _TXB0D4 `Vuc  1 e 1 @3882 ]
+"9565
+[v _TXB0D5 `Vuc  1 e 1 @3883 ]
+"9587
+[v _TXB0D6 `Vuc  1 e 1 @3884 ]
+"9609
+[v _TXB0D7 `Vuc  1 e 1 @3885 ]
+"9709
+[v _RXB1CON `Vuc  1 e 1 @3888 ]
+"9779
+[v _RXB1SIDH `Vuc  1 e 1 @3889 ]
+"9832
+[v _RXB1SIDL `Vuc  1 e 1 @3890 ]
+"9883
+[v _RXB1EIDH `Vuc  1 e 1 @3891 ]
+"9936
+[v _RXB1EIDL `Vuc  1 e 1 @3892 ]
+"9989
+[v _RXB1DLC `Vuc  1 e 1 @3893 ]
+"10038
+[v _RXB1D0 `Vuc  1 e 1 @3894 ]
+"10060
+[v _RXB1D1 `Vuc  1 e 1 @3895 ]
+"10082
+[v _RXB1D2 `Vuc  1 e 1 @3896 ]
+"10104
+[v _RXB1D3 `Vuc  1 e 1 @3897 ]
+"10126
+[v _RXB1D4 `Vuc  1 e 1 @3898 ]
+"10148
+[v _RXB1D5 `Vuc  1 e 1 @3899 ]
+"10170
+[v _RXB1D6 `Vuc  1 e 1 @3900 ]
+"10192
+[v _RXB1D7 `Vuc  1 e 1 @3901 ]
+"10740
+[v _ANCON1 `Vuc  1 e 1 @3932 ]
+"10785
+[v _ANCON0 `Vuc  1 e 1 @3933 ]
+"11067
+[v _RXB0CON `Vuc  1 e 1 @3936 ]
+"11141
+[v _RXB0SIDH `Vuc  1 e 1 @3937 ]
+"11194
+[v _RXB0SIDL `Vuc  1 e 1 @3938 ]
+"11245
+[v _RXB0EIDH `Vuc  1 e 1 @3939 ]
+"11298
+[v _RXB0EIDL `Vuc  1 e 1 @3940 ]
+"11351
+[v _RXB0DLC `Vuc  1 e 1 @3941 ]
+"11400
+[v _RXB0D0 `Vuc  1 e 1 @3942 ]
+"11422
+[v _RXB0D1 `Vuc  1 e 1 @3943 ]
+"11444
+[v _RXB0D2 `Vuc  1 e 1 @3944 ]
+"11466
+[v _RXB0D3 `Vuc  1 e 1 @3945 ]
+"11488
+[v _RXB0D4 `Vuc  1 e 1 @3946 ]
+"11510
+[v _RXB0D5 `Vuc  1 e 1 @3947 ]
+"11532
+[v _RXB0D6 `Vuc  1 e 1 @3948 ]
+"11554
+[v _RXB0D7 `Vuc  1 e 1 @3949 ]
+"11576
+[v _CANSTAT `Vuc  1 e 1 @3950 ]
+"11617
+[v _CANCON `Vuc  1 e 1 @3951 ]
+"11654
+[v _CIOCON `Vuc  1 e 1 @3952 ]
+"11720
+[v _ECANCON `Vuc  1 e 1 @3954 ]
+"11744
+[v _EEDATA `Vuc  1 e 1 @3955 ]
+"11756
+[v _EEADR `Vuc  1 e 1 @3956 ]
+"11768
+[v _EEADRH `Vuc  1 e 1 @3957 ]
+"11930
+[v _EECON2 `Vuc  1 e 1 @3966 ]
+"11942
+[v _EECON1 `Vuc  1 e 1 @3967 ]
+"12002
+[v _PORTB `Vuc  1 e 1 @3969 ]
+"12062
+[v _PORTD `Vuc  1 e 1 @3971 ]
+"12518
+[v _TRISA `Vuc  1 e 1 @3986 ]
+"12540
+[v _TRISB `Vuc  1 e 1 @3987 ]
+"12562
+[v _TRISC `Vuc  1 e 1 @3988 ]
+"12584
+[v _TRISD `Vuc  1 e 1 @3989 ]
+"12606
+[v _TRISE `Vuc  1 e 1 @3990 ]
+"13407
+[v _T3CON `Vuc  1 e 1 @4017 ]
+"13459
+[v _TMR3L `Vuc  1 e 1 @4018 ]
+"13471
+[v _TMR3H `Vuc  1 e 1 @4019 ]
+"13987
+[v _ADRESL `Vuc  1 e 1 @4035 ]
+"13999
+[v _ADRESH `Vuc  1 e 1 @4036 ]
+"14178
+[v _SSPBUF `Vuc  1 e 1 @4041 ]
+"14296
+[v _TMR1L `Vuc  1 e 1 @4046 ]
+"14308
+[v _TMR1H `Vuc  1 e 1 @4047 ]
+"14474
+[v _TMR0L `Vuc  1 e 1 @4054 ]
+"14486
+[v _TMR0H `Vuc  1 e 1 @4055 ]
+"14900
+[v _INTCON `Vuc  1 e 1 @4082 ]
+"16765
+[v _BF `Vb  1 e 0 @32312 ]
+"17163
+[v _ERRIF `Vb  1 e 0 @31677 ]
+"17939
+[v _RA1 `Vb  1 e 0 @31745 ]
+"17941
+[v _RA2 `Vb  1 e 0 @31746 ]
+"17943
+[v _RA3 `Vb  1 e 0 @31747 ]
+"17947
+[v _RA5 `Vb  1 e 0 @31749 ]
+"17957
+[v _RB2 `Vb  1 e 0 @31754 ]
+"17959
+[v _RB3 `Vb  1 e 0 @31755 ]
+"17961
+[v _RB4 `Vb  1 e 0 @31756 ]
+"17969
+[v _RBIE `Vb  1 e 0 @32659 ]
+"17977
+[v _RC0 `Vb  1 e 0 @31760 ]
+"17979
+[v _RC1 `Vb  1 e 0 @31761 ]
+"17987
+[v _RC2 `Vb  1 e 0 @31762 ]
+"17995
+[v _RC3 `Vb  1 e 0 @31763 ]
+"17997
+[v _RC4 `Vb  1 e 0 @31764 ]
+"17999
+[v _RC5 `Vb  1 e 0 @31765 ]
+"18001
+[v _RC6 `Vb  1 e 0 @31766 ]
+"18003
+[v _RC7 `Vb  1 e 0 @31767 ]
+"18311
+[v _RXB0IF `Vb  1 e 0 @31672 ]
+"18545
+[v _RXB1IF `Vb  1 e 0 @31673 ]
+"19821
+[v _SSPIE `Vb  1 e 0 @31979 ]
+"19823
+[v _SSPIF `Vb  1 e 0 @31987 ]
+"19839
+[v _SSPOV `Vb  1 e 0 @32310 ]
+"19863
+[v _SWDTEN `Vb  1 e 0 @32392 ]
+"19869
+[v _T08BIT `Vb  1 e 0 @32430 ]
+"19871
+[v _T0CS `Vb  1 e 0 @32429 ]
+"19979
+[v _TMR0IE `Vb  1 e 0 @32661 ]
+"19981
+[v _TMR0IF `Vb  1 e 0 @32658 ]
+"19987
+[v _TMR0ON `Vb  1 e 0 @32431 ]
+"20001
+[v _TMR1IE `Vb  1 e 0 @31976 ]
+"20003
+[v _TMR1IF `Vb  1 e 0 @31984 ]
+"20033
+[v _TMR3IE `Vb  1 e 0 @32001 ]
+"20035
+[v _TMR3IF `Vb  1 e 0 @32009 ]
+"20041
+[v _TMR3ON `Vb  1 e 0 @32136 ]
+"20353
+[v _TXB0IF `Vb  1 e 0 @31674 ]
+"20567
+[v _TXB1IF `Vb  1 e 0 @31675 ]
+"20781
+[v _TXB2IF `Vb  1 e 0 @31676 ]
+"20893
+[v _WCOL `Vb  1 e 0 @32311 ]
+"41 E:\working\coil\coil-v0.0-14\CoilDet\CoilDet-V0.0.C
+[v _time0_int `b  1 e 0 0 ]
+"42
+[v _time3_int `b  1 e 0 0 ]
+"45
+[v _DTSync `b  1 e 0 0 ]
+"48
+[v _DT_sync_buf `[5]uc  1 e 5 0 ]
+"49
+[v _DT_command `uc  1 e 1 0 ]
+"50
+[v _DT_data_counter `uc  1 e 1 0 ]
+"51
+[v _DT_data `[18]uc  1 e 18 0 ]
+"56
+[v _DT_data1 `[18]uc  1 e 18 0 ]
+"116
+[v _DT_SDdata_counter `uc  1 e 1 0 ]
+"119
+[v _eeprom_addr `ui  1 e 2 0 ]
+"120
+[v _eeprom_num `uc  1 e 1 0 ]
+"141
+[v _ch_timeout_timer `[8]ui  1 e 16 0 ]
+"144
+[v _det_pluse_counter `[8]ui  1 e 16 0 ]
+"145
+[v _det_pluse_counter_h `[8]uc  1 e 8 0 ]
+[v _det_pluse_counter_l `[8]uc  1 e 8 0 ]
+"146
+[v _det_timer_counter_buf `[8][10]ui  1 e 160 0 ]
+"147
+[v _det_timer_average `[8]ui  1 e 16 0 ]
+"148
+[v _det_timer_base `[8]ui  1 e 16 0 ]
+"149
+[v _det_current_sens `[8]uc  1 e 8 0 ]
+"150
+[v _det_current_sens_lv `[4]uc  1 e 4 0 ]
+"151
+[v _det_current_sens_table `[16]uc  1 e 16 0 ]
+"152
+[v _det_enable `uc  1 e 1 0 ]
+"153
+[v _det_status `[4]uc  1 e 4 0 ]
+"154
+[v _det_result `[3]uc  1 e 3 0 ]
+"155
+[v _det_buf_p `[8]uc  1 e 8 0 ]
+"156
+[v _det_result_output `uc  1 e 1 0 ]
+"157
+[v _det_osc_cfg `[2]uc  1 e 2 0 ]
+"158
+[v _det_timer_conter `[8]ui  1 e 16 0 ]
+"159
+[v _det_fillbuf_enable `uc  1 e 1 0 ]
+"160
+[v _det_start `uc  1 e 1 0 ]
+"161
+[v _det_output_enable `b  1 e 0 0 ]
+"1599
+[v _main `(v  1 e 0 0 ]
+{
+"1601
+[v main@j `uc  1 a 1 37 ]
+[v main@t `uc  1 a 1 36 ]
+[v main@k `uc  1 a 1 35 ]
+"1600
+[v main@a `uc  1 a 1 34 ]
+"1665
+} 0
+"173
+[v _Ch_Timeout_Processing `(v  1 e 0 0 ]
+{
+"174
+[v Ch_Timeout_Processing@i `uc  1 a 1 21 ]
+[v Ch_Timeout_Processing@j `uc  1 a 1 20 ]
+"197
+} 0
+"935
+[v _DetBufWrite `(v  1 e 0 0 ]
+{
+[v DetBufWrite@val `ui  1 p 2 0 ]
+[v DetBufWrite@ch `uc  1 p 1 2 ]
+"943
+} 0
+"403
+[v _PORTInit `(v  1 e 0 0 ]
+{
+"441
+} 0
+"445
+[v _IntManager `(v  1 e 0 0 ]
+{
+"476
+} 0
+"592
+[v _SetConfig `(v  1 e 0 0 ]
+{
+"593
+[v SetConfig@EEPromData `[22]uc  1 a 22 9 ]
+"594
+[v SetConfig@i `uc  1 a 1 31 ]
+"625
+} 0
+"909
+[v _DetInit `(v  1 e 0 0 ]
+{
+"910
+[v DetInit@i `uc  1 a 1 21 ]
+[v DetInit@j `uc  1 a 1 20 ]
+"930
+} 0
+"782
+[v _GetTimeAverage `(ui  1 e 2 0 ]
+{
+[v GetTimeAverage@ch `uc  1 a 1 wreg ]
+"786
+[v GetTimeAverage@tempSum `ul  1 a 4 10 ]
+"785
+[v GetTimeAverage@tempData1 `ui  1 a 2 8 ]
+[v GetTimeAverage@tempData `ui  1 a 2 6 ]
+"783
+[v GetTimeAverage@i `uc  1 a 1 17 ]
+"784
+[v GetTimeAverage@k `uc  1 a 1 15 ]
+[v GetTimeAverage@j `uc  1 a 1 14 ]
+"782
+[v GetTimeAverage@ch `uc  1 a 1 wreg ]
+"820
+} 0
+"955
+[v _StartDet `(v  1 e 0 0 ]
+{
+"956
+[v StartDet@temp_timer_counter `ui  1 a 2 12 ]
+"958
+[v StartDet@i `uc  1 a 1 14 ]
+"1030
+} 0
+"826
+[v _GetTimerCounter `(ui  1 e 2 0 ]
+{
+[v GetTimerCounter@ch `uc  1 a 1 wreg ]
+"827
+[v GetTimerCounter@time_val `ui  1 a 2 5 ]
+"828
+[v GetTimerCounter@temp_sta `uc  1 a 1 4 ]
+"826
+[v GetTimerCounter@ch `uc  1 a 1 wreg ]
+"905
+} 0
+"1126
+[v _StartCalc `(v  1 e 0 0 ]
+{
+"1127
+[v StartCalc@i `uc  1 a 1 2 ]
+"1161
+} 0
+"1427
+[v _DTOperation `(v  1 e 0 0 ]
+{
+"1428
+[v DTOperation@dt_dat `[7]uc  1 a 7 17 ]
+"1430
+[v DTOperation@i `uc  1 a 1 24 ]
+"1428
+[v DTOperation@F19317 `[7]uc  1 s 7 F19317 ]
+"1594
+} 0
+"1081
+[v _DTRecv `(v  1 e 0 0 ]
+{
+[v DTRecv@d_size `uc  1 a 1 wreg ]
+"1082
+[v DTRecv@j `uc  1 a 1 7 ]
+[v DTRecv@i `uc  1 a 1 6 ]
+"1081
+[v DTRecv@d_size `uc  1 a 1 wreg ]
+[v DTRecv@dat `*.buc  1 p 2 0 ]
+"1121
+} 0
+"1367
+[v _TransportDataProcess `(v  1 e 0 0 ]
+{
+"1420
+} 0
+"120 E:\working\coil\coil-v0.0-14\CoilDet\mcu.h
+[v _delayms `(v  1 e 0 0 ]
+{
+"121
+[v delayms@i `ui  1 a 2 6 ]
+"120
+[v delayms@ms `ui  1 p 2 4 ]
+"128
+} 0
+"1035 E:\working\coil\coil-v0.0-14\CoilDet\CoilDet-V0.0.C
+[v _DTSend `(v  1 e 0 0 ]
+{
+[v DTSend@d_size `uc  1 a 1 wreg ]
+"1037
+[v DTSend@j `uc  1 a 1 7 ]
+"1036
+[v DTSend@i `uc  1 a 1 6 ]
+"1035
+[v DTSend@d_size `uc  1 a 1 wreg ]
+[v DTSend@dat `*.0uc  1 p 1 0 ]
+"1076
+} 0
+"1166
+[v _ReadFrequency `(v  1 e 0 0 ]
+{
+[v ReadFrequency@dat `*.0uc  1 a 1 wreg ]
+[v ReadFrequency@dat `*.0uc  1 a 1 wreg ]
+"1171
+} 0
+"1195
+[v _DTWriteSensLv `(v  1 e 0 0 ]
+{
+[v DTWriteSensLv@dat `*.0uc  1 a 1 wreg ]
+[v DTWriteSensLv@dat `*.0uc  1 a 1 wreg ]
+"1208
+} 0
+"1176
+[v _ReadSensLv `(v  1 e 0 0 ]
+{
+[v ReadSensLv@dat `*.buc  1 p 2 6 ]
+"1181
+} 0
+"1212
+[v _DTWriteSens `(v  1 e 0 0 ]
+{
+[v DTWriteSens@dat `*.0uc  1 a 1 wreg ]
+[v DTWriteSens@dat `*.0uc  1 a 1 wreg ]
+"1220
+} 0
+"575
+[v _SetSens `(v  1 e 0 0 ]
+{
+[v SetSens@table `*.0uc  1 a 1 wreg ]
+[v SetSens@table `*.0uc  1 a 1 wreg ]
+[v SetSens@level `*.auc  1 p 1 0 ]
+"587
+} 0
+"1186
+[v _ReadSensTable `(v  1 e 0 0 ]
+{
+[v ReadSensTable@dat `*.0uc  1 a 1 wreg ]
+[v ReadSensTable@dat `*.0uc  1 a 1 wreg ]
+"1191
+} 0
+"45 E:\working\coil\coil-v0.0-14\CoilDet\mcu.h
+[v _EEPROMRead `(v  1 e 0 0 ]
+{
+[v EEPROMRead@addr `*.aui  1 a 1 wreg ]
+[v EEPROMRead@addr `*.aui  1 a 1 wreg ]
+[v EEPROMRead@num `*.auc  1 p 1 0 ]
+[v EEPROMRead@dat `*.buc  1 p 2 1 ]
+"65
+} 0
+"1224 E:\working\coil\coil-v0.0-14\CoilDet\CoilDet-V0.0.C
+[v _DTWriteOSCSet `(v  1 e 0 0 ]
+{
+[v DTWriteOSCSet@dat `*.0uc  1 a 1 wreg ]
+[v DTWriteOSCSet@dat `*.0uc  1 a 1 wreg ]
+"1239
+} 0
+"70 E:\working\coil\coil-v0.0-14\CoilDet\mcu.h
+[v _EEPROMWrite `(v  1 e 0 0 ]
+{
+[v EEPROMWrite@addr `*.aui  1 a 1 wreg ]
+[v EEPROMWrite@addr `*.aui  1 a 1 wreg ]
+[v EEPROMWrite@num `*.auc  1 p 1 0 ]
+[v EEPROMWrite@dat `*.0uc  1 p 1 1 ]
+"100
+} 0
+"563 E:\working\coil\coil-v0.0-14\CoilDet\CoilDet-V0.0.C
+[v _SetFreq `(v  1 e 0 0 ]
+{
+[v SetFreq@dat `*.auc  1 a 1 wreg ]
+"564
+[v SetFreq@temp_data `[2]uc  1 a 2 5 ]
+"563
+[v SetFreq@dat `*.auc  1 a 1 wreg ]
+"564
+[v SetFreq@F19251 `[2]uc  1 s 2 F19251 ]
+"570
+} 0
+"507
+[v _Set595Output `(v  1 e 0 0 ]
+{
+[v Set595Output@dat `*.auc  1 a 1 wreg ]
+"508
+[v Set595Output@i `uc  1 a 1 4 ]
+"509
+[v Set595Output@tempd `uc  1 a 1 3 ]
+"508
+[v Set595Output@j `uc  1 a 1 1 ]
+"507
+[v Set595Output@dat `*.auc  1 a 1 wreg ]
+[v Set595Output@num `uc  1 p 1 0 ]
+"558
+} 0
+"1242
+[v _GetCoilState `(v  1 e 0 0 ]
+{
+"1254
+} 0
+"739
+[v _GetSampPluse `(v  1 e 0 0 ]
+{
+"740
+[v GetSampPluse@i `uc  1 a 1 11 ]
+"776
+} 0
+"104 E:\working\coil\coil-v0.0-14\CoilDet\mcu.h
+[v _delayus `(v  1 e 0 0 ]
+{
+"106
+[v delayus@i `ui  1 a 2 2 ]
+"104
+[v delayus@us `ui  1 p 2 0 ]
+"115
+} 0
+"678 E:\working\coil\coil-v0.0-14\CoilDet\CoilDet-V0.0.C
+[v _GetChSampPluse `(v  1 e 0 0 ]
+{
+[v GetChSampPluse@ch `uc  1 a 1 wreg ]
+[v GetChSampPluse@ch `uc  1 a 1 wreg ]
+"735
+} 0
+"629
+[v _PulseErrSet `(v  1 e 0 0 ]
+{
+[v PulseErrSet@ch `uc  1 a 1 wreg ]
+[v PulseErrSet@ch `uc  1 a 1 wreg ]
+"673
+} 0
+"1361
+[v _DTRest `(v  1 e 0 0 ]
+{
+"1363
+} 0
+"365
+[v _IntServer `I(v  1 e 0 0 ]
+{
+"397
+} 0
+"202
+[v _TMR0IntServer `(v  1 e 0 0 ]
+{
+"212
+} 0
+"216
+[v _TMR1IntServer `(v  1 e 0 0 ]
+{
+"223
+} 0
+"227
+[v _TMR3IntServer `(v  1 e 0 0 ]
+{
+"230
+} 0
+"243
+[v _DataTransferIntServer `(v  1 e 0 0 ]
+{
+"245
+[v DataTransferIntServer@buf_p `uc  1 s 1 buf_p ]
+"360
+} 0
